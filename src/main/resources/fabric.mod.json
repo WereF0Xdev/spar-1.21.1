@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "spar",
+	"version": "${version}",
+	"name": "Spar",
+	"description": "Adds Spar",
+	"authors": [
+		"WereF0X"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/spar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fox.mods.Spar"
+		]
+	},
+	"mixins": [
+		"spar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
